@@ -1,0 +1,4 @@
+item cost
+lamp oil 5
+rope 10
+bombs 20

@@ -1,0 +1,1 @@
+tail -n 20 "lab0202.csv" | cut -f1 -d" " | sort -r | head | sed -n '1p' | tr "-" "/"

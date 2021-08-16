@@ -1,0 +1,1 @@
+echo "$(<hw0209.txt)" | sed -n '1p;5p;8p;12p'

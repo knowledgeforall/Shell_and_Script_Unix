@@ -1,0 +1,1 @@
+tail -n 20 "lab0202.csv" |  tail -n 20 "lab0202.csv" | cut -f1,2,4,6 -d" " | sort | uniq | grep -e '[ ][1][1][.]' | grep -e '\-[0-7]\{1,2\}\-' | grep -e '[ ][0-2][2;4;6;8][:]' | grep -e '[ ][2-9]\{1,2\}' | wc -l

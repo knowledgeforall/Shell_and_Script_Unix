@@ -1,0 +1,1 @@
+cat "lab0207.txt" | grep -e '[@][a][s][u][.][e][d][u]' | sed -n '2p;3p;5p'

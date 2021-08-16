@@ -1,0 +1,1 @@
+cat "lab0202.csv" | cut -f3,5,6 -d" " | grep -e '[ ][2-9]\{1,2\}' | grep -e '[U][D][P]' | cut -f2 -d" "

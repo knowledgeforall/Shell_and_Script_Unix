@@ -1,0 +1,1 @@
+tail -n 20 "lab0202.csv" | cut -f4 -d" " | sort | uniq | wc -l

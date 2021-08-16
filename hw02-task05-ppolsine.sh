@@ -1,0 +1,1 @@
+echo "$(<hw0205.txt)" | tr " " "\n" | sort | grep "hand" | wc -w

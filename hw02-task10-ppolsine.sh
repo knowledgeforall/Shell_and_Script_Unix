@@ -1,0 +1,1 @@
+echo "$(<hw0210.txt)" | grep -o '[b-s][m-n][e-g][a-h][d-t][a-t][o-r][@][a][s][u][.][e][d][u]'

@@ -1,0 +1,1 @@
+cat lab0201.csv | grep '[a-Z]\{1,9\}\,' | cut -f1 -d"," | sed -n '2p;3p;5p;6p;9p'
